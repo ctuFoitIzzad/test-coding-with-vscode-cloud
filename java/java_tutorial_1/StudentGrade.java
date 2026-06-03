@@ -19,13 +19,14 @@ public class StudentApp {
         char grade;
         if (codingMarks >= 80) {
             grade = 'A';
-        } else if (codingMarks >= 70) {
-            grade = 'B';
-        } else if (codingMarks >= 60) {
-            grade = 'C';
-        } else if (codingMarks >= 50) {
-            grade = 'D';
-        } else {
+        } 
+        // else if (codingMarks >= 70) {
+        //     grade = 'B';
+        // } else if (codingMarks >= 60) {
+        //     grade = 'C';
+        // } else if (codingMarks >= 50) {
+        //     grade = 'D';
+        else {
             grade = 'F';
         }
 
